@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioAlok</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                 <p class="logo"><span style="color: #ff004f;">A</span>lok.</p>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" " onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>        
+
+            </nav>
+
+            <div class="header-text">
+                <p>Web Devloper</p>
+                <h1>Hi, I'm <span>Alok</span><br>
+                    from Jugmohara</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- --------------------------About--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+
+                <div class="about-col-2 ">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, my name is Alok Kumar from Madhubani (bihar). i am a web Devloper and Java Devloper. i just do internship with CodeSoft in full-stack devlopment and previous year i done internship on core-java with internshallah. i always try to do my best:)
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopment</span><br>
+                                Design Web and App interfaces</li>
+
+                            <li><span>App Devloper</span><br>
+                                Build Android/ IOS apps</li>
+
+                            <li><span>Java Devloper</span><br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Core Java internship</span><br>
+                                August 2023, Core java internship with 'Inernshala'</li>
+
+                            <li><span>Web Devlopment </span><br>
+                                July 2024, i do front end web devlopment internship with 'CodeSoft'</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>
+                                10th from 'Anoop High School Bhatsimari'</li>
+
+                            <li><span>2021</span><br>
+                                12th from 'RK college Madhubani'</li>
+
+                            <li><span>2021-25</span><br>
+                                BTech(CSE) from 'Sandip University' </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ------------------services-------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Devlop</h2>
+                    <p>At Alok kumar, we transform your digital vision into reality with my expert web development services. Whether you're launching a new website or revamping an existing one. As a dedicated solo web developer, I bring a personal touch and expert craftsmanship to every project. My mission is to transform your ideas into a compelling online presence, providing tailored solutions that meet your unique needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Devlop</h2>
+                    <p>Transform your innovative ideas into functional, user-friendly mobile applications with my comprehensive app development services. As a solo developer, I offer personalized, hands-on expertise to bring your vision to life, whether you need a new app or want to enhance an existing one.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Devlop</h2>
+                    <p>Leverage the power and versatility of Java with my specialized Java development services. As a dedicated developer, I provide robust and scalable solutions that harness the full potential of Java to meet your business needs and technical requirements.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------portfolio---------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app contact you to the talented people around the world.
+                            Download it for play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app contact you to the talented people around the world.
+                            Download it for play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Sopping App</h3>
+                        <p>The app contact you to the talented people around the world.
+                            Download it for play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------------contact----------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kumaralokeducation@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9334143121</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100027224387254"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/alok.aryan_tkr/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/alok-kumar-1189aa294"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/kumaraloktkr"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/alok-resume.pdf" download class ="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="cpoyright">cpoyright &#169 Alok. Made with love <i class="fa-solid fa-heart"></i>  By Alok Sharma</div>
+    </div>
+
+    <script>
+
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+        let sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL =  'https://script.google.com/macros/s/AKfycbxk1lihfbcB25xdiKh0w7IamU6zCELcojGurtmL_eDx41E963SToY9MvkqWYzFbteaQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById('msg');
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { 
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = '';
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
